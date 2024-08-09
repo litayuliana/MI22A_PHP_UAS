@@ -1,8 +1,8 @@
 <?php
 /**
- * NIM : 2257401070
- * NAMA : HARIS MUNANDAR
- * KELAS MI22A
+ * NIM : 2257401018
+ * NAMA : LITA YULIANA
+ * KELAS : MI22A
  */
  session_start();
 
@@ -18,7 +18,7 @@
     background-image: linear-gradient(to bottom, #0a4655, #a8ebe7);
     background-size: 100% 100%;
     background-attachment: fixed;
-}
+    }
   .main {
         display: flex;
     }
@@ -116,5 +116,5 @@
             </div>
         </div>     
     </div>
-    </body>
+   </body>
 </html>
