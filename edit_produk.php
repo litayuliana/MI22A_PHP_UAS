@@ -24,10 +24,10 @@
     
     if ($op == 'edit') {
         $id         = $_GET['id'];
-        $sql       = "select * from produk where id_produk = '$id'";
+        $sql       = "select * from produk where kode_produk = '$id'";
         $q1         = mysqli_query($koneksi, $sql);
         $r1         = mysqli_fetch_array($q1);
-        $id        = $r1['id_produk'];
+        $id        = $r1['kode_produk'];
         $nama       = $r1['nama_produk'];
         $kategori   = $r1['kategori_produk'];
         $deskripsi  = $r1['deskripsi'];
@@ -44,8 +44,8 @@
     
     
         if ($nama && $kategori && $deskripsi) {
-            if ($op == 'edit') { //untuk update
-                $sql       = "update produk set id_produk = '$id', nama_produk='$nama', kategori_produk = '$kategori', deskripsi='$deskripsi', where id_produk = '$id'";
+            if ($op == 'edit') { // update
+                $sql       = "update produk set kode_produk = '$id', nama_produk='$nama', kategori_produk = '$kategori', deskripsi='$deskripsi', where kode_produk = '$id'";
                 $q1         = mysqli_query($koneksi, $sql);
                 if ($q1) {
                     $sukses = "Data berhasil diupdate";
