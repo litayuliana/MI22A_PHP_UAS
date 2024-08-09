@@ -5,7 +5,7 @@
      * KELAS : MI22A
      */ 
     
-    include 'cek_ssession.php'
+    include 'cek_session';
     include 'menu.php';
 ?>
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
     <style>
      body{
         height: 100vh;
-        background-image: url(img/awan2.jpg);
+        background-color: white;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
