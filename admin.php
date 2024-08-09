@@ -1,10 +1,10 @@
 <?php
  /**
-     * NIM : 2257401070
-     * NAMA : HARIS MUNANDAR
-     * KELAS MI22A
+     *NIM : 2257401018
+     * NAMA : LITA YULIANA
+     * KELAS : MI22A
      */ 
-    
+    include 'cek_session.php';
     include 'menu.php';
     include 'koneksi.php';
 
