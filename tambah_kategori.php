@@ -5,6 +5,7 @@
      * KELAS : MI22A
      */ 
     
+    include 'cek_ssession.php'
     include 'menu.php';
 ?>
 <!DOCTYPE html>
