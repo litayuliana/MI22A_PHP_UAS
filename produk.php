@@ -1,11 +1,11 @@
 <?php
  /**
-     * NIM : 2257401070
-     * NAMA : HARIS MUNANDAR
+     * NIM : 2257401018
+     * NAMA : LITA YULIANA
      * KELAS : MI22A
      */ 
     
-     
+    include 'cek_session.php';
     include 'menu.php';
     include 'koneksi.php';
 
@@ -124,5 +124,5 @@
 
             </div>
         </div>
-    </div>
+  </div>
 </body>

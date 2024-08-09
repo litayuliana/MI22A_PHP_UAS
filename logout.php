@@ -1,7 +1,7 @@
 <?php
      /**
-     * NIM : 2257401070
-     * NAMA : HARIS MUNANDAR
+     * NIM : 2257401018
+     * NAMA : LITA YULIANA
      * KELAS : MI22A
      */ 
     session_start();

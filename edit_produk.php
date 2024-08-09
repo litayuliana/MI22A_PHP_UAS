@@ -138,7 +138,6 @@
                             <div class="col-sm-10">
                                 <select class="form-control" name="kategori" id="kategori">
                                 <option value="">- Pilih Kategori -</option>
-                                <option value="">- Pilih Kategori -</option>
                                 <option value="Aksesoris" <?php if ($kategori == "Aksesoris") echo "selected" ?>>Aksesoris</option>
                                 <option value="Oli" <?php if ($kategori == "Oli") echo "selected" ?>>Oli</option>
                                 <option value="Sparepart" <?php if ($kategori == "Sparepart") echo "selected" ?>>Sparepart</option>

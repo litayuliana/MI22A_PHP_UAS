@@ -1,8 +1,8 @@
 <?php
  /**
-     * NIM : 2257401070
-     * NAMA : HARIS MUNANDAR
-     * KELAS MI22A
+     *NIM : 2257401018
+     * NAMA : LITA YULIANA
+     * KELAS : MI22A
      */ 
 session_start();
 if (!isset($_SESSION['user'])){
