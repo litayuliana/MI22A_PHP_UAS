@@ -29,7 +29,7 @@
         $r1         = mysqli_fetch_array($q1);
         $id        = $r1['kode_produk'];
         $nama       = $r1['nama_produk'];
-        $kategori   = $r1['kategori_produk'];
+        $kategori   = $r1['kategori'];
         $deskripsi  = $r1['deskripsi'];
     
         if ($id == '') {
@@ -45,7 +45,7 @@
     
         if ($nama && $kategori && $deskripsi) {
             if ($op == 'edit') { // update
-                $sql       = "update produk set kode_produk = '$id', nama_produk='$nama', kategori_produk = '$kategori', deskripsi='$deskripsi', where kode_produk = '$id'";
+                $sql       = "update produk set kode_produk = '$id', nama_produk='$nama', kategori = '$kategori', deskripsi='$deskripsi', where kode_produk = '$id'";
                 $q1         = mysqli_query($koneksi, $sql);
                 if ($q1) {
                     $sukses = "Data berhasil diupdate";
